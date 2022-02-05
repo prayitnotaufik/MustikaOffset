@@ -6,6 +6,6 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('menu/index');
+        return view('welcome_message');
     }
 }
