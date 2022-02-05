@@ -36,6 +36,7 @@ $routes->get('/produk', 'Produk::index');
 $routes->get('/admin', 'Produk::admin');
 $routes->get('/dashboard', 'Produk::dashboard');
 $routes->get('/delete/(:segment)', 'Produk::delete/$1');
+$routes->get('/produk/updateProduk/(:segment)', 'Produk::updateProduk/$1');
 
 /*
  * --------------------------------------------------------------------

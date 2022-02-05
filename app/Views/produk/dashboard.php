@@ -126,6 +126,7 @@
                                 <th scope="col">Nama</th>
                                 <th scope="col">Harga</th>
                                 <th scope="col">Kategori</th>
+                                <th scope="col">Gambar</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
@@ -138,9 +139,49 @@
                                     <td>Rp<?= $p['harga']; ?>,-</td>
                                     <td><?= $p['kategori']; ?></td>
                                     <td>
-                                        <button class="btn btn-success">Edit</button>
-                                        <a href="delete/<?= $p['id']; ?>" class="btn btn-danger" onclick="return confirm('Apakah anda yakin?')">Delete</a>
+                                        <img src="../img/<?= $p['gambar']; ?>" alt="" srcset="" width="100">
                                     </td>
+                                    <td>
+                                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal<?= $p['id'] ?>">Edit</button>
+                                        <a href=" delete/<?= $p['id']; ?>" class="btn btn-danger" onclick="return confirm('Apakah anda yakin?')">Delete</a>
+                                    </td>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="editModal<?= $p['id'] ?>" tabindex="-1" aria-labelledby="editModal<?= $p['id'] ?>" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Edit Produk</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form action="/produk/updateProduk/<?= $p['id']; ?>" method="POST" enctype="multipart/form-data">
+                                                        <?= csrf_field(); ?>
+                                                        <div class="mb-3">
+                                                            <label for="nama" class="form-label">Nama Produk</label>
+                                                            <input type="text" class="form-control" id="nama" name="nama" value="<?= $p['nama']; ?>">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="harga" class="form-label">Harga</label>
+                                                            <input type="number" class="form-control" id="harga" name="harga" value="<?= $p['harga']; ?>">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="kategori" class="form-label">Kategori</label>
+                                                            <input type="text" class="form-control" id="kategori" name="kategori" value="<?= $p['kategori']; ?>">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="deskripsi" class="form-label">Deskripsi Produk</label>
+                                                            <textarea class="form-control" id="deskripsi" rows="3" name="deskripsi"><?= $p['deskripsi']; ?></textarea>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="formFile" class="form-label">Upload Gambar</label>
+                                                            <input class="form-control" type="file" id="formFile" name="gambar">
+                                                        </div>
+                                                        <button type="submit" class="btn btn-primary float-end">Simpan</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </tr>
                             <?php endforeach ?>
                         </tbody>

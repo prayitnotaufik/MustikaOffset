@@ -29,11 +29,16 @@ class Produk extends BaseController
 
     public function dashboard()
     {
-        $data = [
-            'produk' => $this->product->getProduk()
-        ];
+        if (session()->get('isLogin')) {
+            $data = [
+                'produk' => $this->product->getProduk()
+            ];
 
-        return view('produk/dashboard', $data);
+            return view('produk/dashboard', $data);
+        } else {
+            session()->setFlashdata('pesan', 'Silahkan Login dahulu');
+            return redirect()->to('produk/admin');
+        }
     }
 
     public function login()
@@ -42,6 +47,9 @@ class Produk extends BaseController
         $password = $this->request->getVar('password');
 
         if ($username == 'admin' && $password == 'admin') {
+            session()->set([
+                'isLogin' => true
+            ]);
             return redirect()->to('produk/dashboard');
         } else {
             session()->setFlashdata('pesan', 'Username atau Password Salah !');
@@ -66,6 +74,34 @@ class Produk extends BaseController
         $this->product->insert($data);
 
         session()->setFlashdata('pesan', 'Produk berhasil ditambahkan');
+
+        return redirect()->to('produk/dashboard');
+    }
+
+    public function updateProduk($id)
+    {
+        $produk = $this->product->find($id);
+        $file = $this->request->getFile('gambar');
+
+        if ($file->getError() == 4) {
+            $namaFile = $produk['gambar'];
+        } else {
+            $namaFile = $file->getRandomName();
+            $file->move('img', $namaFile);
+            unlink('img/' . $produk['gambar']);
+        }
+
+        $data = [
+            'nama' => $this->request->getVar('nama'),
+            'harga' => $this->request->getVar('harga'),
+            'kategori' => $this->request->getVar('kategori'),
+            'deskripsi' => $this->request->getVar('deskripsi'),
+            'gambar' => $namaFile
+        ];
+
+        $this->product->update($id, $data);
+
+        session()->setFlashdata('pesan', 'Produk berhasil diupdate');
 
         return redirect()->to('produk/dashboard');
     }
