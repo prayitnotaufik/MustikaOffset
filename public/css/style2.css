@@ -11897,6 +11897,7 @@ header.masthead .masthead-heading {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-caption {
+  height: 10rem;
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
@@ -12290,8 +12291,13 @@ span svg:nth-child(2) {
   justify-content: center;
 }
 
-.modalku .modal-content {
-  max-width: 70%;
+@media only screen and (min-width: 576px) {
+  .modalku .modal-content {
+    max-width: 70%;
+  }
+}
+
+.maps {
 }
 
 /* CUSTOM CSS */

@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     if (!navbarCollapsible) {
       return;
     }
-    if (window.scrollY === 0) {
+    if (window.scrollY === 0 && screen.width > 992) {
       navbarCollapsible.classList.remove("navbar-shrink");
       logo.classList.add("text-black");
       for (let i = 0; i < link.length; i++) {

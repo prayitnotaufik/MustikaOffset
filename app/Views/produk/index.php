@@ -91,7 +91,7 @@
             </div>
             <div class="row">
                 <?php foreach ($produk as $p) : ?>
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="col-lg-4 col-sm-6 col-6 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
                             <a class="portfolio-link d-flex justify-content-center" data-bs-toggle="modal" href="#produkModal<?= $p['id'] ?>">
@@ -101,8 +101,12 @@
                                 <img class="img-fluid" src="img/<?= $p['gambar']; ?>" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading"><?= $p['nama']; ?></div>
-                                <div class="portfolio-caption-subheading text-muted">Harga mulai Rp <?= $p['harga']; ?>,-/pcs</div>
+                                <div class="portfolio-caption-heading">
+                                    <h6><?= $p['nama']; ?></h6>
+                                </div>
+                                <div class="portfolio-caption-subheading">
+                                    <p class="text-muted"><small>Harga mulai Rp.<?= $p['harga']; ?>,-/pcs</small></p>
+                                </div>
                             </div>
                         </div>
                         <!-- Modal -->
@@ -262,15 +266,15 @@
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
             <div class="row align-items-stretch mb-5">
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 overflow-hidden maps" id="maps">
                     <div class="mapouter">
-                        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Mustika%20offset,%20Mlatibaru,%20Kec.%20Semarang%20Tim.,%20Kota%20Semarang,%20Jawa%20Tengah%2050122,%20Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br>
+                        <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=cv%20mustika%20percetakan%20mojosari&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br>
                             <style>
                                 .mapouter {
                                     position: relative;
                                     text-align: right;
                                     height: 500px;
-                                    width: 600px;
+                                    width: 100%;
                                 }
                             </style><a href="https://www.embedgooglemap.net">google map for websites</a>
                             <style>
@@ -278,51 +282,76 @@
                                     overflow: hidden;
                                     background: none !important;
                                     height: 450px;
-                                    width: 600px;
+                                    width: 100%;
                                 }
                             </style>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="row mb-5">
-                        <div class="col-md-2 text-center">
+                        <div class="col-md-2 col-sm-2 col-2 text-center">
                             <i class="fas fa-map-marked-alt fa-3x"></i>
                         </div>
-                        <div class="col-md-10 d-flex p-0">
-                            <h6 class="my-auto">Jl. Mlatiharjo III No.467, Mlatibaru, Kec. Semarang Tim., Kota Semarang, Jawa Tengah</h6>
+                        <div class="col-md-10 col-sm-10 col-10">
+                            <h6 class="my-auto">Alamat</h6>
+                            <p class="my-auto">
+                                <small class="text-muted">
+                                    Jl. A. Yani No.122, Sambikerep, Pekukuhan, Kec. Mojosari, Kabupaten Mojokerto, Jawa Timur
+                                </small>
+                            </p>
                         </div>
                     </div>
                     <div class="row mb-5">
-                        <div class="col-md-2 text-center">
+                        <div class="col-md-2 col-sm-2 col-2 text-center">
                             <i class="fas fa-envelope-open-text fa-3x"></i>
                         </div>
-                        <div class="col-md-10 d-flex p-0">
-                            <h6 class="my-auto">mustikaoffset@gmail.com</h6>
+                        <div class="col-md-10 col-sm-10 col-10 ">
+                            <h6 class="my-auto">Email</h6>
+                            <p class="my-auto">
+                                <small class="text-muted">
+                                    mustikagrup@hotmail.com / grupmutika@gmail.com
+                                </small>
+                            </p>
                         </div>
                     </div>
                     <div class="row mb-5">
-                        <div class="col-md-2 text-center">
+                        <div class="col-md-2 col-sm-2 col-2 text-center">
                             <i class="fas fa-phone fa-3x"></i>
                         </div>
-                        <div class="col-md-10 d-flex p-0">
-                            <h6 class="my-auto">0341 9028 881</h6>
+                        <div class="col-md-10 col-sm-10 col-10 ">
+                            <h6 class="my-auto">Telepon</h6>
+                            <p class="my-auto">
+                                <small class="text-muted">
+                                    (0321) 6854072
+                                </small>
+                            </p>
                         </div>
                     </div>
                     <div class="row mb-5">
-                        <div class="col-md-2 text-center">
+                        <div class="col-md-2 col-sm-2 col-2 text-center">
                             <i class="fab fa-whatsapp fa-3x"></i>
                         </div>
-                        <div class="col-md-10 d-flex p-0">
-                            <h6 class="my-auto">0892331238121</h6>
+                        <div class="col-md-10 col-sm-10 col-10">
+                            <h6 class="my-auto">Whatsapp</h6>
+                            <p class="my-auto">
+                                <small class="text-muted">
+                                    0822-4520-1760
+                                </small>
+                            </p>
                         </div>
                     </div>
                     <div class="row mb-5">
-                        <div class="col-md-2 text-center">
+                        <div class="col-md-2 col-sm-2 col-2 text-center">
                             <i class="fas fa-mobile-alt fa-3x"></i>
                         </div>
-                        <div class="col-md-10 d-flex p-0">
-                            <h6 class="my-auto">0899210380120</h6>
+                        <div class="col-md-10 col-sm-10 col-10">
+                            <h6 class="my-auto">HP</h6>
+                            <p class="my-auto">
+                                <small class="text-muted">
+                                    0822-4520-1760
+                                </small>
+                            </p>
                         </div>
                     </div>
                 </div>
