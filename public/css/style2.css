@@ -4245,7 +4245,7 @@ fieldset:disabled .btn {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #cca000;
+  color: #ffc800;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -11734,7 +11734,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  /* background-color: #212529; */
 }
 
 .text-black {
@@ -11784,7 +11784,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    /* background-color: transparent; */
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -12270,7 +12270,11 @@ section {
 }
 
 span svg:nth-child(2) {
-  color: #ffc800;
+  /* color: #fff000; */
+}
+
+span svg:nth-child(1) {
+  color: #2f3966;
 }
 
 .text-yellow {
@@ -12297,7 +12301,59 @@ span svg:nth-child(2) {
   }
 }
 
+@media only screen and (max-width: 1366px) {
+  .profil div img {
+    width: 120%;
+  }
+}
+
 .maps {
 }
+
+.bg-biru {
+  background-color: #2f3966;
+}
+
+.bg-putih {
+  background-color: #fefefe;
+}
+
+.bg-kuning {
+  background-color: #fff000;
+}
+
+.bg-merah {
+  background-color: #e62129;
+}
+
+.bg-merahb {
+  background-color: #ab3035;
+}
+
+.text-biru {
+  color: #2f3966;
+}
+
+.text-putih {
+  color: #fefefe;
+}
+
+.text-kuning {
+  color: #fff000 !important;
+}
+
+.text-merah {
+  color: #e62129;
+}
+
+.text-merahb {
+  color: #ab3035;
+}
+
+/* .nav-link {
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
 
 /* CUSTOM CSS */

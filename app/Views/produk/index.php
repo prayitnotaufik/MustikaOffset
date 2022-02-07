@@ -52,7 +52,7 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Layanan</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Kami menyediakan layanan terbaik untuk para customer</h3>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
@@ -61,7 +61,7 @@
                         <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Cetak Online</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">Kami menyediakan jasa cetak online, dengan menghubungi kontak yang tertera anda akan diarahkan oleh admin untuk proses selanjutnya.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -69,15 +69,15 @@
                         <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Jasa Desain</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">Ingin mencetak tapi belum ada desain? Tenang, kami juga menyediakan jasa desain untuk memudahkan para customer untuk mencetak produk.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fas fa-check fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Kualitas Terjamin</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">Dengan komposisi mesin cetak dan bahan yang berkualitas, kami menjamin bahwa hasil cetak dari Mustika Offset terjamin kualitasnya.</p>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Produk</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Berikut produk yang kami tawarkan</h3>
             </div>
             <div class="row">
                 <?php foreach ($produk as $p) : ?>
@@ -216,44 +216,45 @@
     <section class="page-section bg-offwhite" id="team">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">Profil Mustika Offset</h2>
+                <h3 class="section-subheading text-muted">Profil singkat mustika offset.</h3>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                        <h4>Parveen Anand</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+            <div class="container mb-5">
+                <div class="row">
+                    <h3>Sejarah singkat</h3>
+                </div>
+                <div class="row profil">
+                    <div class="col-lg-6 col-md-12 col-12 overflow-hidden mt-3">
+                        <img class="" src="../img/profil3.jpg" alt="" width="100%">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12 mt-3 fw-light">
+                        <p>
+                            Kami adalah perusahaan yang bergerak di bidang Jasa Percetakan. Kami berdiri sejak tahun 2003 di Kota Mojosari - Mojokerto. Berlokasikan di Kelurahan Mojosari Kecamatan Mojosari Kabupaten Mojokerto.
+                        </p>
+                        <p>
+                            Didukung oleh tenaga yang mumpuni dibidangnya dan peralatan yang lengkap, kami berusaha untuk memberikan pelayanan yang terbaik dan hasil yang maksimal dan tentunya semua itu adalah untuk kepuasan konsumen.
+                        </p>
+                        <p>
+                            Dengan bekal pengalaman selama lebih dari 10 tahun di bidang jasa percetakan, kami akan berikan pelayanan yang maksimal guna mendukung aktivitas kerja dan juga promosi para konsumen kami, baik pada perusahaan ataupun instansi pemerintah maupun swasta.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                        <h4>Diana Petersen</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                <div class="row visi text-center">
+                    <div class="col-md-6 border p-5">
+                        <h3>Visi</h3>
+                        <div class="border p-5 fst-italic">
+                            Menjadi Percetakan yang terus berkembang dan menjadi pionir dalam melayani konsumen
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    <div class="col-md-6 border p-5">
+                        <h3>Misi</h3>
+                        <div class="border p-5 fst-italic">
+                            Mengembangkan produk jasa cetak
+                            Mengembangkan jaringan pelayanan secara terpadu
+                            Memperbesar pangsa pasar
+                            Memberikan kepuasan bagi pelanggan dan mitra usaha
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
                 </div>
             </div>
         </div>
