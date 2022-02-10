@@ -5,12 +5,12 @@
 <header class="">
     <div class="text-anim text-center">
         <div class="row m-3">
-            <h1 class="text-atas">Solusi Cetakmu</h1>
+            <h1 class="text-atas">Digital Printing Service</h1>
         </div>
         <div class="row m-3">
-            <h2 class="fw-bolder">
+            <h3 class="fw-bolder">
                 <span class="txt-rotate" data-period="1000" data-rotate='[ "Cetak Banner..", "Cetak Majalah..", "Cetak Kalender..", "Cetak Kartu Nama..", "Cetak Brosur.." ]'></span>
-            </h2>
+            </h3>
         </div>
         <div class="row m-3 d-flex justify-content-center">
             <h4 class="text-bawah fw-light">Yang tidak mau macet dan antri, Tidak sempat desain, dan Butuh kepastian harga</h4>
@@ -19,16 +19,28 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/slide (1).jpg" class="d-block w-100" alt="...">
+                <picture>
+                    <source media="(min-width: 576px)" srcset="img/slide1.jpg">
+                    <img src="img/mobile1.jpg" class="d-block w-100" alt="...">
+                </picture>
             </div>
             <div class="carousel-item">
-                <img src="img/slide (2).jpg" class="d-block w-100" alt="...">
+                <picture>
+                    <source media="(min-width: 576px)" srcset="img/slide2.jpg">
+                    <img src="img/mobile2.jpg" class="d-block w-100" alt="...">
+                </picture>
             </div>
             <div class="carousel-item">
-                <img src="img/slide (3).jpg" class="d-block w-100" alt="...">
+                <picture>
+                    <source media="(min-width: 576px)" srcset="img/slide3.jpg">
+                    <img src="img/mobile3.jpg" class="d-block w-100" alt="...">
+                </picture>
             </div>
             <div class="carousel-item">
-                <img src="img/slide (4).jpg" class="d-block w-100" alt="...">
+                <picture>
+                    <source media="(min-width: 576px)" srcset="img/slide4.jpg">
+                    <img src="img/mobile4.jpg" class="d-block w-100" alt="...">
+                </picture>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -240,13 +252,13 @@
                     </div>
                 </div>
                 <div class="row visi text-center">
-                    <div class="col-md-6 border p-5">
+                    <div class="col-md-6 p-5">
                         <h3>Visi</h3>
                         <div class="border p-5 fst-italic">
                             Menjadi Percetakan yang terus berkembang dan menjadi pionir dalam melayani konsumen
                         </div>
                     </div>
-                    <div class="col-md-6 border p-5">
+                    <div class="col-md-6 p-5">
                         <h3>Misi</h3>
                         <div class="border p-5 fst-italic">
                             Mengembangkan produk jasa cetak

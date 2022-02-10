@@ -11,7 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 
 main {
   margin-top: 0;
@@ -12255,7 +12256,8 @@ header {
 }
 
 .text-atas {
-  font-family: "Permanent Marker", cursive !important;
+  font-family: "Bangers", cursive !important;
+  /* font-family: "Permanent Marker", cursive !important; */
   font-size: 60px;
 }
 
@@ -12293,6 +12295,16 @@ span svg:nth-child(1) {
   /* max-width: 50%; */
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .text-atas {
+    font-size: 40px;
+  }
+
+  .carousel-item img {
+    height: 700px;
+  }
 }
 
 @media only screen and (min-width: 576px) {
