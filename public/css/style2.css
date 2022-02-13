@@ -12257,7 +12257,6 @@ header {
 
 .text-atas {
   font-family: "Bangers", cursive !important;
-  /* font-family: "Permanent Marker", cursive !important; */
   font-size: 60px;
 }
 
@@ -12299,11 +12298,24 @@ span svg:nth-child(1) {
 
 @media only screen and (max-width: 576px) {
   .text-atas {
-    font-size: 40px;
+    font-size: 2em;
+  }
+
+  .anim h3 {
+    font-size: 1em;
+  }
+
+  .text-bawah {
+    font-size: 1em;
+    width: 255px;
   }
 
   .carousel-item img {
     height: 700px;
+  }
+
+  .galeri div {
+    padding: 0.5em;
   }
 }
 
@@ -12360,6 +12372,15 @@ span svg:nth-child(1) {
 
 .text-merahb {
   color: #ab3035;
+}
+
+.galeri div {
+  padding: 1em;
+}
+
+.galeri div img {
+  width: 100%;
+  /* padding: 2em; */
 }
 
 /* .nav-link {

@@ -7,7 +7,7 @@
         <div class="row m-3">
             <h1 class="text-atas">Digital Printing Service</h1>
         </div>
-        <div class="row m-3">
+        <div class="row m-3 anim">
             <h3 class="fw-bolder">
                 <span class="txt-rotate" data-period="1000" data-rotate='[ "Cetak Banner..", "Cetak Majalah..", "Cetak Kalender..", "Cetak Kartu Nama..", "Cetak Brosur.." ]'></span>
             </h3>
@@ -20,25 +20,19 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <picture>
-                    <source media="(min-width: 576px)" srcset="img/slide1.jpg">
-                    <img src="img/mobile1.jpg" class="d-block w-100" alt="...">
-                </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source media="(min-width: 576px)" srcset="img/slide2.jpg">
+                    <source media="(min-width: 1200px)" srcset="img/slide2.jpg">
                     <img src="img/mobile2.jpg" class="d-block w-100" alt="...">
                 </picture>
             </div>
             <div class="carousel-item">
                 <picture>
-                    <source media="(min-width: 576px)" srcset="img/slide3.jpg">
+                    <source media="(min-width: 1200px)" srcset="img/slide3.jpg">
                     <img src="img/mobile3.jpg" class="d-block w-100" alt="...">
                 </picture>
             </div>
             <div class="carousel-item">
                 <picture>
-                    <source media="(min-width: 576px)" srcset="img/slide4.jpg">
+                    <source media="(min-width: 1200px)" srcset="img/slide4.jpg">
                     <img src="img/mobile4.jpg" class="d-block w-100" alt="...">
                 </picture>
             </div>
@@ -266,6 +260,33 @@
                             Memperbesar pangsa pasar
                             Memberikan kepuasan bagi pelanggan dan mitra usaha
                         </div>
+                    </div>
+                </div>
+                <div class="row galeri">
+                    <h3 class="text-center my-5">Galeri</h3>
+                    <div class="col-md-3 col-6">
+                        <img src="img/galeri1.jpg" class="rounded mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="img/galeri3.jpg" class="rounded mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="img/galeri4.jpg" class="rounded mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="img/galeri5.jpg" class="rounded mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="img/galeri6.jpg" class="rounded mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="img/galeri7.jpg" class="rounded mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="img/galeri8.jpg" class="rounded mx-auto d-block" alt="...">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <img src="img/galeri9.jpg" class="rounded mx-auto d-block" alt="...">
                     </div>
                 </div>
             </div>
