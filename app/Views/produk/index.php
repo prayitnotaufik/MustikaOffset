@@ -5,7 +5,7 @@
 <header class="">
     <div class="text-anim text-center">
         <div class="row m-3">
-            <h1 class="text-atas">Digital Printing Service</h1>
+            <h1 class="text-atas">Percetakan Offset dan Digital Printing</h1>
         </div>
         <div class="row m-3 anim">
             <h3 class="fw-bolder">
@@ -64,17 +64,17 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Cetak Online</h4>
-                    <p class="text-muted">Kami menyediakan jasa cetak online, dengan menghubungi kontak yang tertera anda akan diarahkan oleh admin untuk proses selanjutnya.</p>
+                    <h4 class="my-3">Cetak Offset</h4>
+                    <p class="text-muted">Di antara semua teknik percetakan, offset merupakan teknik yang memiliki kualitas tinggi dan konsistensi yang baik untuk mencetak dalam skala besar.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Jasa Desain</h4>
+                    <h4 class="my-3">Free Desain</h4>
                     <p class="text-muted">Ingin mencetak tapi belum ada desain? Tenang, kami juga menyediakan jasa desain untuk memudahkan para customer untuk mencetak produk.</p>
                 </div>
                 <div class="col-md-4">
@@ -265,28 +265,28 @@
                 <div class="row galeri">
                     <h3 class="text-center my-5">Galeri</h3>
                     <div class="col-md-3 col-6">
-                        <img src="img/galeri1.jpg" class="rounded mx-auto d-block" alt="...">
+                        <img src="img/galeri1.jpg" class=" mx-auto d-block" alt="...">
                     </div>
                     <div class="col-md-3 col-6">
-                        <img src="img/galeri3.jpg" class="rounded mx-auto d-block" alt="...">
+                        <img src="img/galeri3.jpg" class=" mx-auto d-block" alt="...">
                     </div>
                     <div class="col-md-3 col-6">
-                        <img src="img/galeri4.jpg" class="rounded mx-auto d-block" alt="...">
+                        <img src="img/galeri4.jpg" class=" mx-auto d-block" alt="...">
                     </div>
                     <div class="col-md-3 col-6">
-                        <img src="img/galeri5.jpg" class="rounded mx-auto d-block" alt="...">
+                        <img src="img/galeri5.jpg" class=" mx-auto d-block" alt="...">
                     </div>
                     <div class="col-md-3 col-6">
-                        <img src="img/galeri6.jpg" class="rounded mx-auto d-block" alt="...">
+                        <img src="img/galeri6.jpg" class=" mx-auto d-block" alt="...">
                     </div>
                     <div class="col-md-3 col-6">
-                        <img src="img/galeri7.jpg" class="rounded mx-auto d-block" alt="...">
+                        <img src="img/galeri7.jpg" class=" mx-auto d-block" alt="...">
                     </div>
                     <div class="col-md-3 col-6">
-                        <img src="img/galeri8.jpg" class="rounded mx-auto d-block" alt="...">
+                        <img src="img/galeri8.jpg" class=" mx-auto d-block" alt="...">
                     </div>
                     <div class="col-md-3 col-6">
-                        <img src="img/galeri9.jpg" class="rounded mx-auto d-block" alt="...">
+                        <img src="img/galeri9.jpg" class=" mx-auto d-block" alt="...">
                     </div>
                 </div>
             </div>
@@ -370,7 +370,17 @@
                             <h6 class="my-auto">Whatsapp</h6>
                             <p class="my-auto">
                                 <small class="text-muted">
-                                    0822-4520-1760
+                                    +62 822-4520-1760
+                                </small>
+                            </p>
+                            <p class="my-auto">
+                                <small class="text-muted">
+                                    +62 812-3127-3767
+                                </small>
+                            </p>
+                            <p class="my-auto">
+                                <small class="text-muted">
+                                    +62 813-5700-0870
                                 </small>
                             </p>
                         </div>
@@ -396,9 +406,9 @@
     <footer class="footer py-4 bg-offwhite">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2021</div>
+                <div class="col-lg-4 text-lg-start">Copyright &copy; www.mustikaoffset.com</div>
                 <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/mustikaoffset"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                 </div>

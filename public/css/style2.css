@@ -11756,7 +11756,7 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #ffc800;
+  /* color: #ffc800; */
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -12257,7 +12257,7 @@ header {
 
 .text-atas {
   font-family: "Bangers", cursive !important;
-  font-size: 60px;
+  /* font-size: 60px; */
 }
 
 .carousel {
